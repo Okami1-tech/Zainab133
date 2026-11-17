@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#170b2d">
+<title>Not Someday — Insha'Allah, Soon</title>
+<style>
+:root{
+--pink:#ff659e;--rose:#ffabc5;--gold:#ffdc91;
+--lav:#d0aaff;--cream:#fff5ef;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+margin:0;color:var(--cream);
+font-family:Georgia,serif;
+background:
+radial-gradient(ellipse at 12% 5%,#74245f 0,transparent 36%),
+radial-gradient(ellipse at 90% 30%,#46217d 0,transparent 35%),
+linear-gradient(145deg,#10091f,#241039 55%,#120a25);
+overflow-x:hidden;
+}
+body:before{
+content:"";position:fixed;inset:0;pointer-events:none;
+opacity:.3;
+background-image:radial-gradient(#fff 0.7px,transparent .8px);
+background-size:37px 37px;
+}
+main{width:min(760px,100%);margin:auto;padding:20px 17px 60px;position:relative}
+.hero{
+min-height:94vh;display:flex;flex-direction:column;
+justify-content:center;align-items:center;text-align:center;
+padding:35px 8px;
+}
+.kicker,.num{
+font:600 10px/1.7 Arial,sans-serif;
+letter-spacing:.28em;text-transform:uppercase;color:var(--gold)
+}
+h1{
+font-size:clamp(43px,10vw,76px);line-height:.98;
+margin:22px 0;font-weight:normal;letter-spacing:-.045em;
+background:linear-gradient(110deg,#fff2dc,#ff9dbd 42%,#c8a7ff 80%,#ffe4a7);
+-webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.sub{font:14px/1.9 Arial,sans-serif;color:#e5d4ee;max-width:440px}
+.orb{
+width:145px;height:145px;border-radius:50%;margin:32px auto;
+background:radial-gradient(circle at 35% 28%,#fff4d9,#ff87b1 27%,#a34fe0 58%,#35135e 76%);
+box-shadow:0 0 45px #ff6da966,0 0 100px #8d4bd655;
+position:relative;
+}
+.orb:after{
+content:"";position:absolute;inset:-13px;border:1px solid #ffcfdf66;
+border-radius:50%;animation:pulse 3s infinite;
+}
+@keyframes pulse{50%{transform:scale(1.08);opacity:.35}}
+button{
+border:0;border-radius:999px;padding:15px 23px;
+background:linear-gradient(100deg,#ff6b9e,#c18aff 70%,#ffd58b);
+color:#210e32;font:700 11px Arial,sans-serif;
+letter-spacing:.13em;text-transform:uppercase;cursor:pointer;
+box-shadow:0 10px 30px #0005;
+}
+.panel{
+margin:0 auto 18px;padding:29px 23px;
+border:1px solid #ffffff22;border-radius:24px;
+background:linear-gradient(140deg,#ffffff13,#ffffff06);
+box-shadow:0 18px 50px #0002;
+backdrop-filter:blur(8px);
+}
+h2{
+font-size:clamp(27px,6vw,39px);font-weight:normal;
+line-height:1.1;margin:13px 0 15px;color:#ffe4d8;
+}
+p{font-size:16px;line-height:1.8;color:#f0e4f3;margin:12px 0}
+.em{color:#ffb0c9}.gold{color:var(--gold)}.lav{color:var(--lav)}
+.quote{font-size:clamp(22px,5vw,30px);line-height:1.4;color:#fff0dc;margin:20px 0}
+.rule{height:1px;background:linear-gradient(90deg,transparent,#ff9cbd88,#d2b0ff88,transparent);margin:25px 0}
+.datebox{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin:24px 0}
+.datebox div{
+border:1px solid #ffb2d044;border-radius:16px;padding:16px 5px;
+text-align:center;background:#ffffff09;
+}
+.datebox b{display:block;font-size:21px;color:var(--gold);font-weight:normal}
+.datebox span{font:9px Arial,sans-serif;letter-spacing:.12em;color:#e9d8f0}
+.note{font:12px/1.8 Arial,sans-serif;color:#cbbbd7}
+.final{background:linear-gradient(145deg,#4a1a55aa,#22113faa);border-color:#ffc5dc55}
+.signature{font-size:30px;color:#ffc0d5;font-style:italic;margin-top:25px}
+footer{text-align:center;padding:30px 8px;color:#bcaacb;font:10px/1.9 Arial,sans-serif;letter-spacing:.12em}
+@media(min-width:650px){main{padding-top:40px}.hero{min-height:95vh}}
+</style>
+</head>
+<body>
+<main>
+
+<header class="hero">
+<div class="kicker">A message from Muhammad · for Sarauniya</div>
+<div class="orb"></div>
+<h1>Not Someday.<br><i>Insha'Allah, Soon.</i></h1>
+<div class="sub">
+This isn't a story about a life we've already lived.
+It's about the life I sincerely hope to begin with you.
+</div>
+<div style="height:30px"></div>
+<button onclick="document.getElementById('truth').scrollIntoView({behavior:'smooth'})">
+Open what I really mean
+</button>
+</header>
+
+<section class="panel" id="truth">
+<div class="num">01 / THE TRUTH</div>
+<h2>I don't want to keep saying <span class="em">one day.</span></h2>
+<p>
+My love, I don't want to make our future sound like a beautiful story
+that is always far away. I don't want to speak as though we must wait
+for years before I take the step that makes you my wife.
+</p>
+<p>
+I want that step. I want it sincerely. And I am asking Allah to make
+the way possible for us sooner than later.
+</p>
+<div class="rule"></div>
+<div class="quote">
+"I don't just want to dream about marrying you.
+I want to work, prepare and take the real steps towards it."
+</div>
+</section>
+
+<section class="panel">
+<div class="num">02 / THE MONTHS I'M PRAYING FOR</div>
+<h2>January. February. March.</h2>
+<p>
+These are the first three months of 2027 that I keep in my heart
+and in my duas. Insha'Allah, I pray that within this time I can
+pay your dowry and have some money set aside for the beginning
+of our life together — perhaps even more than I currently imagine.
+</p>
+<div class="datebox">
+<div><b>JAN</b><span>2027</span></div>
+<div><b>FEB</b><span>2027</span></div>
+<div><b>MAR</b><span>2027</span></div>
+</div>
+<p class="note">
+I know plans are not promises, and only Allah knows what tomorrow
+holds. I won't pretend that everything is already settled.
+I'll keep working, planning and asking Allah for barakah.
+</p>
+</section>
+
+<section class="panel">
+<div class="num">03 / WHAT I MEAN BY SOON</div>
+<h2>Not just words. <span class="gold">Steps.</span></h2>
+<p>
+I want to be responsible with this intention. To save what I can,
+understand what is required, speak with the families respectfully,
+and prepare for the responsibilities of marriage — not only
+the beautiful moments.
+</p>
+<p>
+I want us to enter marriage with sincerity, patience, mercy and
+trust in Allah. I don't need a perfect beginning. I want an honest
+one, built with what we have and with the blessing of Allah.
+</p>
+</section>
+
+<section class="panel">
+<div class="num">04 / WHAT YOU MEAN TO ME</div>
+<h2>You are not a distant dream to me.</h2>
+<p>
+You are the person I want to make these intentions real with.
+I miss you, I long to be beside you, and I want the ordinary
+parts of life with you just as much as the special ones.
+</p>
+<div class="quote">
+"I need you as much as I need oxygen to breathe.
+I don't say that to put a burden on you; I say it because
+that's how deeply I long for a life with you."
+</div>
+<p>
+And I want that love to make me more responsible, more patient,
+more hardworking and closer to Allah.
+</p>
+</section>
+
+<section class="panel">
+<div class="num">05 / MY DUA</div>
+<h2>Ya Allah, make it good for us.</h2>
+<p class="quote">
+"If this marriage is good for our deen, our lives and our akhirah,
+make its path easy, bless our efforts, provide for us from where
+we do not expect, and unite us in a marriage filled with sakinah,
+mercy and barakah."
+</p>
+<p class="lav">Ameen ya Rabbal-'alameen. 🤲</p>
+</section>
+
+<section class="panel final">
+<div class="num">A LAST THING, MY SARAUNIYA</div>
+<h2>I can't promise a date that only Allah controls.</h2>
+<p>
+But I can tell you what is in my heart: I don't want to be careless
+with your time or our future. I want to do my part. I want to prepare
+properly. I want to keep making dua and keep moving forward.
+</p>
+<p>
+May Allah allow the coming months to bring us closer to our Nikkah,
+and may He make what comes after it even more beautiful than
+what we have imagined.
+</p>
+<p class="signature">With all my love,<br>Muhammad 💜</p>
+</section>
+
+<footer>
+NOT A PROMISE OF WHAT I CONTROL · A SINCERE INTENTION, A PLAN, AND A DUA<br>
+MADE WITH LOVE · IN THE HOPE OF ALLAH'S BARAKAH
+</footer>
+
+</main>
+</body>
+</html>
